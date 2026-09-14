@@ -1,0 +1,21 @@
+# KiCad backup / autosave files
+*.lck
+*.bak
+*.tmp
+~*
+
+# KiCad rescue files
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+
+# Local KiCad settings
+fp-info-cache
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*-backups/
