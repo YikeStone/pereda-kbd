@@ -4,10 +4,8 @@ Pereda is a custom wireless mechanical keyboard designed for **Kailh Choc V1** s
 
 It has **46 keys**, aggressive **column stagger**, and **column splay**. The key positions are designed around my finger length and natural finger-joint movement rather than a conventional keyboard layout.
 
+Finished Product:
 ![Pereda Build](images/pereda-build.jpg)
-
-![Pereda Left](images/pereda-choc-left.jpg)
-![Pereda Right](images/pereda-choc-right.jpg)
 
 ## Hardware
 
