@@ -34,7 +34,6 @@
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
-		(39 "User.1" user)
 	)
 	(setup
 		(stackup
@@ -79,8 +78,8 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(aux_axis_origin 65.797498 167.4275)
-		(grid_origin 65.797498 167.4275)
+		(aux_axis_origin 72.482426 161.7175)
+		(grid_origin 72.477498 161.699107)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_57555550)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -114,7 +113,7 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 3)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -125,14 +124,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "0a326881-248b-4908-a659-c902df8b8280")
-		(at 176.073274 122.955806 -9)
+		(at 173.108333 122.951218 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW17"
 			(at 4.445 -1.905 171)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "219355d1-adbc-4293-b1ad-6d30674af829")
+			(uuid "46ca3c14-de04-490a-b08d-b3a08cb0f379")
 			(effects
 				(font
 					(size 1 1)
@@ -140,11 +139,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ca7b3c7b-96ae-4d2c-a34f-1804ee949284")
+			(uuid "480caccb-b63c-44dc-ab80-83e1967bfc43")
 			(effects
 				(font
 					(size 1 1)
@@ -157,7 +156,7 @@
 			(at 0 0 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a7b47bda-9ff3-40b5-8de7-5d0ffd1d5c2e")
+			(uuid "dce05930-6aba-4522-b54b-e321bbca591c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,7 +169,7 @@
 			(at 0 0 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "78bd661c-f3f0-44ab-aac3-1269e2ed59c5")
+			(uuid "77c0247a-1ff1-4231-9c8a-30f0c35ecd67")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,47 +1160,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/533a36eb-7c0e-4b01-b105-4d73f1a504f9")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "5d901caa-ee79-4b2f-b0c3-e8333eed5670")
+			(uuid "051c2b51-e1d8-4e40-836b-7c9b1d19e5e6")
 		)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "cae2c97c-6312-4e0c-950d-3363613d5f3a")
+			(uuid "40d91856-7547-4b93-acb8-a1f037a1fe8b")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "de89a7dc-3aed-454d-8892-e3772d5a5661")
+			(uuid "a314c386-86ae-4909-a92c-9d2b1f89b611")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "eae4745c-5e79-402c-951e-1581e8456d9f")
+			(uuid "c308154f-9a3f-48e2-837c-d602d8f24787")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -1211,7 +1210,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "7a3b038e-b1fe-4a24-90be-6e2284694a9e")
+			(uuid "1227cf39-712d-47dc-a2b4-4b8fc24b1339")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -1221,7 +1220,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ec46bad7-0974-4ac3-9a02-b37cda43f930")
+			(uuid "43fcb541-b779-40d9-94ce-5229ddcf2f0e")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -1231,7 +1230,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4b63cd6f-6fdb-4db4-b18b-f483d4752324")
+			(uuid "c0e48bb9-2090-44d3-8070-b785bca4512b")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -1241,7 +1240,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "141fc72f-264e-4854-a20d-7f07de2fbae4")
+			(uuid "ba922fc8-0f24-40c5-b8c9-a18db206cdf9")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 171)
@@ -1271,14 +1270,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "13d26587-90b2-440c-b23c-d7ddce58c9f5")
-		(at 154.226865 128.044189)
+		(at 153.164603 125.994188)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW15"
 			(at 4.445 -1.905 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "02dae04e-325c-4e23-bedc-f81d8efbc79c")
+			(uuid "d9c94b9d-58e8-47e6-adba-3d73f9540211")
 			(effects
 				(font
 					(size 1 1)
@@ -1286,11 +1285,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a873b891-865b-4a88-ab70-443067c5dd03")
+			(uuid "d0ce617a-6945-4be1-8dcd-60ba0427cfd8")
 			(effects
 				(font
 					(size 1 1)
@@ -1303,7 +1302,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a25b9628-bd18-4f5c-93e7-d60388bb85da")
+			(uuid "c99f046f-c992-4123-bfd3-fd3583f6222e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1315,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "abb7c85c-aecf-4ba0-baa5-4bdd5a1cf68f")
+			(uuid "a60e30ab-21aa-416b-957e-c6af6630ca07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,47 +2306,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/2c9cb870-ead5-4cbb-8aaf-0bea074650f0")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "90415332-8dfa-4f98-a815-657ecfa98c87")
+			(uuid "94cb109d-1454-41d7-9745-b97e01f15b90")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "6f6d3ed1-db8c-401b-a6d3-589565747725")
+			(uuid "232c5cb0-786d-4a52-8fc0-3c796e70d7b1")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "10f8ebd0-1cc1-4f85-8eca-d1d1c9abf5ee")
+			(uuid "c1638af4-fd1f-4182-8c36-557ae543f9d0")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "55b3f16a-77a0-4be3-bbcf-b20f2d7aa2e1")
+			(uuid "8d3e8089-8a27-4942-85cf-bf3a7f57aad6")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -2357,7 +2356,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "cf0eef0c-b421-4d69-a131-e61c9eae041b")
+			(uuid "f3518485-5314-497c-a623-c70163f9ef39")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -2367,7 +2366,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "22bc2a04-e205-4d41-b54b-36962247db21")
+			(uuid "18b446c1-4215-4e10-a3ff-a01c4e154f18")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -2377,7 +2376,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4a167ee8-fad3-4081-9426-ca1c8563182e")
+			(uuid "6fa8489c-9b90-4af3-89f9-546fbecd57d6")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -2387,7 +2386,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "690dc806-1ae6-4956-90b7-2a1bd48ebc32")
+			(uuid "52722cc1-96e1-4cf9-a155-35232a41c4eb")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 180)
@@ -2417,14 +2416,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "19dbb921-5af6-4f05-802f-e50f84897b5d")
-		(at 110.974383 146.138455 4)
+		(at 113.902642 141.938821 4)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW9"
 			(at 4.445 -1.905 184)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6bf6688f-1d98-494e-aea2-e8a1c65e3f48")
+			(uuid "6bb9e99b-dd8c-4b5f-b870-1cbf5d70fd9b")
 			(effects
 				(font
 					(size 1 1)
@@ -2432,11 +2431,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a6e2855f-ff10-496d-baa5-6a5bb0a8b024")
+			(uuid "1711efd7-9972-4c46-8fea-e82b2e59441e")
 			(effects
 				(font
 					(size 1 1)
@@ -2449,7 +2448,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d66975e5-84e2-4780-88f4-2138b47433c8")
+			(uuid "e00263b4-fba0-457c-b7a7-c40469c945df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2461,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b9c51187-3d25-46d0-a49a-617b4cbdbae1")
+			(uuid "927a798e-073a-4159-8d6f-f56ba9cb7d29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,47 +3452,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/69d28473-ae2a-455e-a126-601dcc311eb7")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "f8eee24b-707f-4e91-b187-3e5cadb95215")
+			(uuid "ab8c731a-4c14-4b41-8c90-bcd0c367d2b7")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "6a76c126-35cb-43be-839b-9b4297f9134e")
+			(uuid "b542ffab-32fc-4a6e-b543-b9343ef00001")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "0b942026-81a5-47b9-b991-142750b435d5")
+			(uuid "afb3f24d-2a18-44fe-a1ab-e1986d1337dc")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "6ad55d4d-cf76-4532-b311-deafd135b9a8")
+			(uuid "a9d7b4a3-4e17-4239-9ae0-83c167f74611")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -3503,7 +3502,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "f070a265-a80b-4a46-b29c-d852ffaaf91d")
+			(uuid "3c584c96-9591-41e1-856b-dc906714848b")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -3513,7 +3512,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4d35767c-7be7-47ca-91df-f4e183cbfcae")
+			(uuid "8eb2e845-a8da-4841-83bc-a6c3e393ed1c")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -3523,7 +3522,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "467afbf5-26d3-4d9c-b811-46f01868863b")
+			(uuid "309670b9-3b12-48e5-acc0-3a55dfc7c295")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -3533,7 +3532,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "30d80ebb-b635-4b77-b317-85efee5f488d")
+			(uuid "fade541c-617e-47b5-b28e-70dbe71dd400")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 184)
@@ -3563,14 +3562,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "21fff6dc-6154-4791-9f97-364a5c52d943")
-		(at 135.164601 117.315846)
+		(at 135.164603 115.265845)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW10"
 			(at 4.445 -1.905 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "96a7b690-a998-46c3-b830-1574158b9645")
+			(uuid "704e65cb-7b5e-48cd-90da-42b395eb29da")
 			(effects
 				(font
 					(size 1 1)
@@ -3578,11 +3577,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3d592fa5-c3de-432b-8a1a-66f2a379f04b")
+			(uuid "2ebd2346-76be-4d10-9945-1db77b4b318a")
 			(effects
 				(font
 					(size 1 1)
@@ -3595,7 +3594,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a950839b-7930-4d42-8809-9afc7342684d")
+			(uuid "21f5071a-7c25-4718-834f-3e88a7e526f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +3607,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0a07636c-ebf4-4843-b816-02a42acc608a")
+			(uuid "80f68abc-1b14-4610-9118-7c2aace7182a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,47 +4598,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/d3c18c21-5711-435c-b44c-a95ad88844a1")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "b0d5faf9-bb51-4570-b970-31e256893437")
+			(uuid "ae965228-f481-4d6f-baab-8e2002ff4bc4")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "cd0a6bc7-27c1-4200-8ca8-a2725ecde96e")
+			(uuid "b3fa870e-6bdc-4e2d-a588-2fe746c40f0a")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "40b93db4-80f4-4c86-83dc-d79a00e035ba")
+			(uuid "f39b5024-393b-44b4-ac7a-a2fe4c8943f8")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "1f82e7c7-57b8-41c1-a526-cb271276e0c2")
+			(uuid "64a55216-bacc-43bd-b165-8d6ceea29567")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -4649,7 +4648,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4048da17-6e29-4f21-ae24-9dfceeeabea2")
+			(uuid "8eca811f-7129-4440-b395-84def7c4f5b6")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -4659,7 +4658,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d2edbc18-bdca-44a1-b09f-769f811a4e2b")
+			(uuid "8efe5d8f-29d7-44fe-898a-1db0cdd8d36a")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -4669,7 +4668,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "1a5e6fd6-4b51-4b21-9992-83281d97bd26")
+			(uuid "fe374653-64b5-4188-abae-49ff7c7bcc49")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -4679,7 +4678,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "a701f9ac-fffa-4e87-895c-210081e9f0df")
+			(uuid "1f9677bf-7905-4fe1-97d4-0883193b7a34")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 180)
@@ -4709,14 +4708,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "38419885-a9ea-4f4c-9386-35876af4f88d")
-		(at 135.164601 98.265846)
+		(at 135.164603 98.265845)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW11"
 			(at 4.445 -1.905 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c17cc2c0-2998-4ce4-b173-c6a485e6ba45")
+			(uuid "6f7a7ec5-228f-488c-99e5-244585bdc263")
 			(effects
 				(font
 					(size 1 1)
@@ -4724,11 +4723,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3e2efc91-705b-49b1-8079-48aa5d887e43")
+			(uuid "e7abf0bd-9a30-4f16-bd07-60f4663ca8bb")
 			(effects
 				(font
 					(size 1 1)
@@ -4741,7 +4740,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c2d1a0ec-6f28-4c1e-ada7-7806c0f47456")
+			(uuid "15a91c40-919c-46b7-9a17-e1feccaf9e65")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +4753,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bda46e3f-e58f-4bcf-806d-108f6d620268")
+			(uuid "5add80e3-df08-4940-a47c-4d4e5619a2e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,47 +5744,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/c04c0667-668c-4229-929e-478d9cf0e039")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "fe8e9e9d-a91c-46f5-8638-9f312539e696")
+			(uuid "bb505af1-49aa-44f8-a80b-09d9329872cc")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "ca340838-d756-4890-9bdf-a6c878746308")
+			(uuid "65d83fb2-300d-4ca1-87a6-47afcd993ba2")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "29612812-dc61-4c70-8ce8-d4a71228b5c8")
+			(uuid "1994225c-1b4d-4358-96fb-c2ceb737367b")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "a64e803a-50da-49ee-ab93-561f445312e5")
+			(uuid "fda3e137-4597-4244-8934-30d127d10d36")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -5795,7 +5794,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "a9916b7c-7bbb-40db-8ef5-4e510110020e")
+			(uuid "1f3a800d-464e-4f75-9fdf-190dd9aa30ec")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -5805,7 +5804,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "5d972404-222f-4819-bdbb-d611dbb4497c")
+			(uuid "69060f30-80cf-4007-984c-8a90a6d1d7be")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -5815,7 +5814,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "fcdf3d79-d82f-4637-97b8-8b62ecf46d67")
+			(uuid "ba41d432-a9e1-4bf3-9035-5bbc86c06006")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -5825,7 +5824,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "081afc90-1ce9-4d03-a18e-2806b4bf9d47")
+			(uuid "5615eeb7-423a-4e65-8a7f-31d772fb1650")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 180)
@@ -5855,14 +5854,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "3fd7ce58-4a02-4dc1-8c7b-9a13e30a2e20")
-		(at 173.094596 141.771791 -9)
+		(at 170.449117 139.742075 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW16"
 			(at 4.445 -1.905 171)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b9e86b14-cd1d-48b5-b5a4-d3158da3b2d5")
+			(uuid "5381e7d3-559e-4897-9b77-a36e81e8a7aa")
 			(effects
 				(font
 					(size 1 1)
@@ -5870,11 +5869,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a9556418-f9f0-440c-bc89-a547acf339d4")
+			(uuid "7d96ea37-ba23-45ce-ac2e-69fc4475ec29")
 			(effects
 				(font
 					(size 1 1)
@@ -5887,7 +5886,7 @@
 			(at 0 0 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "296bcbd7-e604-4cda-a97b-9465babffb37")
+			(uuid "86f6449b-702f-4927-bb27-aab21b2173fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,7 +5899,7 @@
 			(at 0 0 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d64b2ea0-2faa-4ae6-83ca-67beb29b0420")
+			(uuid "22832e64-61bb-41f7-bc4f-7fa74ebcaad1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,47 +6890,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/2190235b-4719-4bac-890f-6ac80491a1d6")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "eeb27eab-31f7-4652-9979-33e437752cd6")
+			(uuid "42354057-e06f-4157-abbf-3189e95c0a58")
 		)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "d74f9156-957e-4cd4-956e-38ccde335bff")
+			(uuid "c2d3ae1d-4b08-4254-86e2-08515db25acc")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "43ff6d09-dd16-43ce-8080-1bfefedb95ed")
+			(uuid "55ccedb4-4c15-4a67-9ec9-7fc2e21b930b")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "d0171d11-6269-4a9e-bcac-dd55a1ffc7a8")
+			(uuid "ff94151c-0765-40d6-905f-11722eaad140")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -6941,7 +6940,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d3d87389-65d9-4820-b804-476899035e3d")
+			(uuid "85681ccd-3370-4ba0-8012-bf6a117420a4")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -6951,7 +6950,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "8566c734-3985-49df-baeb-a738e67947b1")
+			(uuid "d381d25a-cd61-40cc-81f5-b2d8f291329d")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -6961,7 +6960,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "93574bd9-bbf5-4e4b-b4f9-4aca8c6fec4d")
+			(uuid "55f7ab25-0293-4715-b712-a04197761850")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -6971,7 +6970,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "e7b7470f-13a8-447e-886c-6dba02bde7ef")
+			(uuid "16f6c548-d1a7-4529-8624-561deda90f56")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 171)
@@ -7001,14 +7000,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "47975ba0-0329-4591-ac3c-94e23ee35307")
-		(at 77.610237 129.384347 4)
+		(at 81.293514 127.177561 4)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW23"
 			(at 4.445 -1.905 184)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "314ea0ea-c805-4d04-8bd8-3a2c48e0ad7a")
+			(uuid "8556275d-42d3-45e0-9fed-95cf6ec65bea")
 			(effects
 				(font
 					(size 1 1)
@@ -7016,11 +7015,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "98dff365-533e-488d-8401-d008d8fcd16d")
+			(uuid "4e44c4cb-eb56-4f5c-9d3a-012ce4cf3b35")
 			(effects
 				(font
 					(size 1 1)
@@ -7033,7 +7032,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1a9ee16b-c56a-4a1f-b41d-7705386eb373")
+			(uuid "1e7fbb7e-8791-498f-a8b9-9fd96aa6ce4d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7046,7 +7045,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d6e30f2a-287d-414e-9e5d-787c077663ed")
+			(uuid "eb9d6ad1-be38-46e1-af71-1cbd09f4efa6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,47 +8036,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/41d1a528-22f2-4187-b9a7-8a8408bf035c")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "b90d492d-b240-470f-8c76-3362b3439f54")
+			(uuid "e4b2a937-4af4-45bc-a593-4d5e81b3aa88")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "7e34ec9c-fed3-4799-935c-d7c3eb4d8ff9")
+			(uuid "6e0bd793-046f-4274-8d57-631922858940")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "1b879ec5-380d-4819-8eaa-743eda62fc02")
+			(uuid "31822e5c-9480-419d-8d97-d6d9d790e0d7")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "6bb0358a-3edc-4c29-b48f-7184f389264f")
+			(uuid "6ef11166-04fb-4f69-a830-8eee2c2585a2")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -8087,7 +8086,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "1de88ce8-d723-42e0-88fd-e84a18009bb7")
+			(uuid "b1e0dfcf-43d8-48ca-905e-453cdf85c678")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -8097,7 +8096,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "6a42b019-5c5d-447d-9ad3-ab049e7654a4")
+			(uuid "153007cd-6a15-4ed1-a1d0-479e20907cf3")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -8107,7 +8106,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "34dda4c0-edab-4a48-bd03-e1e5a62a0753")
+			(uuid "ce960e0d-c6e1-4802-8346-aa7e83c8c212")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -8117,7 +8116,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "6d5182be-d7b5-43d5-96ab-ed3303e64a6d")
+			(uuid "ff445e07-35bc-4c8e-bf9a-f6a5d95ca4d7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 184)
@@ -8147,14 +8146,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "47cbcf17-76b5-4572-9121-50380728d911")
-		(at 179.051953 104.139822 -9)
+		(at 175.767549 106.160361 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW18"
 			(at 4.445 -1.905 171)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1751ad1f-0ad0-4dbe-a1ce-924d174ae16e")
+			(uuid "3f3ed09a-be1f-491e-8643-1d401c58d7d2")
 			(effects
 				(font
 					(size 1 1)
@@ -8162,11 +8161,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fff11bbe-b910-4ac7-b179-01d799e5c81f")
+			(uuid "3bc5c946-b485-405d-9414-6c44f5956def")
 			(effects
 				(font
 					(size 1 1)
@@ -8179,7 +8178,7 @@
 			(at 0 0 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "220b7f31-064a-427a-a452-b248946a8ecf")
+			(uuid "ea77c171-90b0-4196-abfb-1c139edaee5b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,7 +8191,7 @@
 			(at 0 0 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7f2e2d61-5e35-45af-818a-e52f94cad296")
+			(uuid "74aea0ce-dd9a-49e1-9a94-3aa1798b17ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,47 +9182,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/c7e7aa05-ffbe-4396-b944-0d63c098a66b")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "332fd18b-5437-4e2a-a83b-900686dafba5")
+			(uuid "b6436c42-71c4-49c7-9e04-a3db4468d9fd")
 		)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "3e1ae6e0-c72c-424e-8c91-2cd6c84830e6")
+			(uuid "18c6d75a-e979-46d9-89a5-fcb3b3d91b8e")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "adcce2f1-893d-4f3f-a2aa-5e03f2080daf")
+			(uuid "2faee3fa-9056-41fc-be09-4e79042fb56e")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "4264c527-b100-461d-95ea-3b0a5904641e")
+			(uuid "37e2897f-6712-417e-b49d-449aed131b99")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -9233,7 +9232,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "e6d05d9a-ad4d-42d6-938a-9e2ee9883584")
+			(uuid "b01baef6-6775-4b25-9e17-413f4fe6870b")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -9243,7 +9242,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "43aa01a8-2023-4251-8428-f381bffa058a")
+			(uuid "468444a0-a153-4957-94e3-55f2dd1a4760")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -9253,7 +9252,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "fad1da8f-b2e4-4ccb-8112-7a862acc6073")
+			(uuid "c4432165-0ffa-4630-aa98-82c3eaa3117d")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -9263,7 +9262,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "5fe2b332-1732-498e-82f0-978ad420b6c4")
+			(uuid "227efc21-4426-451b-a119-f4dfff7b8b50")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 171)
@@ -9293,14 +9292,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "47e29f18-a51f-4e93-b021-6244b98fad6d")
-		(at 197.867937 107.118501 -9)
+		(at 193.54498 108.977433 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW19"
 			(at 4.445 -1.905 171)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "60c3f9cd-8012-4cb1-903c-49cd13246e0b")
+			(uuid "53f3fd7f-d72a-41d7-b6fc-8b294829c7d6")
 			(effects
 				(font
 					(size 1 1)
@@ -9308,11 +9307,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "586de629-14d2-4f56-bbf9-8d2ea57728a5")
+			(uuid "c3b1a827-6456-4bdb-a5a9-3038f629456d")
 			(effects
 				(font
 					(size 1 1)
@@ -9325,7 +9324,7 @@
 			(at 0 0 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d07a8cbe-de80-4f94-948c-d242d340d24e")
+			(uuid "022e22fb-0ce1-40ce-81b1-db1800e29a50")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,7 +9337,7 @@
 			(at 0 0 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f1a76834-5bbb-47c9-bc36-4c0213631b1f")
+			(uuid "8aaf0a97-f8fc-418a-bdae-6e96c7bdba2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10329,47 +10328,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/7220374c-2436-4925-9f25-88a7a8fa7423")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "157d8d1a-4ade-4411-89b4-3daea06d0692")
+			(uuid "10576a53-cbef-4d14-b9d6-7a0fbe0f3745")
 		)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "42c59a8a-2d27-4faf-bb14-df0d8dd0c5ca")
+			(uuid "cb6dbe1a-e969-4cf2-919a-63ae744e9041")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "d37ae63f-c495-4dab-be6e-5a47233a40fa")
+			(uuid "e90c4d85-8621-4dd4-8aad-4ef703b40085")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "361551ad-ebe1-4da0-aad5-fa5a177a5d48")
+			(uuid "da771fa3-afd6-4689-94ee-e94c580accb6")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -10379,7 +10378,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "6d030bdf-1c57-45aa-9880-5da9abbbab37")
+			(uuid "749f4dd0-df38-4fe0-9277-f95899396d62")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -10389,7 +10388,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "30c94064-aea2-429c-a4f8-3b0fdebd35ac")
+			(uuid "7d2782e1-dd88-4a8b-a43d-a55615908381")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -10399,7 +10398,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c4e3e960-0e1f-4221-8409-9ad28ea1a613")
+			(uuid "ab6f5f65-28fe-4aec-a369-d70f9d08d0ea")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -10409,7 +10408,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "10172e23-8c84-4a3c-a87c-68cec80a445b")
+			(uuid "04519187-7bd3-4f8d-a872-8e8a72baf1b2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 171)
@@ -10439,14 +10438,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "4d61a58a-a8d8-4fa1-9cee-0549d1ee61c7")
-		(at 93.946464 90.033292 4)
+		(at 96.877947 92.004767 4)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW4"
 			(at 4.445 -1.905 184)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "51032423-8cf7-4627-948b-b190930a6219")
+			(uuid "a143ad7d-91fe-4057-a3d5-70c1eeaa813f")
 			(effects
 				(font
 					(size 1 1)
@@ -10454,11 +10453,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ba510b34-1e47-4e98-bb14-45090817016c")
+			(uuid "3bfe3e12-8830-45eb-94b1-be7db5a3b075")
 			(effects
 				(font
 					(size 1 1)
@@ -10471,7 +10470,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d9352d61-3985-473f-a2d3-0aa848f839cb")
+			(uuid "775c6b95-78ee-4c4c-8961-8c60bb0b730d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,7 +10483,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a1c19210-8c04-4a3a-8797-4df281a8234c")
+			(uuid "00946fc3-1ed1-4ace-a92b-2b74c32d3b12")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11475,47 +11474,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/0718ee63-d41b-4e85-b3cd-57f3e5bb00b8")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "25d8847b-fa98-40c3-a1f8-641e7642e378")
+			(uuid "35e3aa8a-1126-4806-8328-665d27fd2c87")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "eb492180-67dc-4f03-bf8f-7951ef4f420b")
+			(uuid "d32a27a7-61d2-446c-bc5a-c4a7ed43b7f5")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "220b98be-e976-4fd8-b0a7-2c62886d522f")
+			(uuid "78359f72-4c2a-4b02-ba16-00b72a0da23f")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "f9abdd31-981c-42f5-afe2-eec1a73c96f6")
+			(uuid "ac33f9ec-7d69-4c78-8441-41a0a5fb2ea7")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -11525,7 +11524,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4abe6015-126f-4945-842c-f199d56049c9")
+			(uuid "b83eac46-dafc-4dd7-b8aa-006a74955019")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -11535,7 +11534,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9353f94a-5ef7-49c4-bc32-932eb9829b2d")
+			(uuid "de26df1f-7429-4f5b-93f8-2c95ed865d57")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -11545,7 +11544,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "f3dbeef4-128b-4c95-9be4-2449cce4eb44")
+			(uuid "4117a2cf-32ad-4e95-860f-fc8657e74cd3")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -11555,7 +11554,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "98e63a20-20c4-42f3-b7b8-3e6ddea19e85")
+			(uuid "c625b2f3-371c-48dd-9c68-cdb94c35514e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 184)
@@ -11585,14 +11584,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "52d01f35-d9f0-4c03-86ca-6c119fdcda6e")
-		(at 114.278912 107.70774 4)
+		(at 116.01996 107.707739 4)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW6"
 			(at 4.445 -1.905 184)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7a61a8ee-51da-40a9-a406-8065ebd1e294")
+			(uuid "bb87d26d-4a6a-4c9f-8e98-c1f9e3e9dc43")
 			(effects
 				(font
 					(size 1 1)
@@ -11600,11 +11599,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e563b5ff-e32a-4034-b34b-d3022def458e")
+			(uuid "88c9cc35-15dc-4a0b-876d-234aa29ece0a")
 			(effects
 				(font
 					(size 1 1)
@@ -11617,7 +11616,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "59420916-802c-4d9b-a00d-5011e1c7a91e")
+			(uuid "28c31c39-e6d1-4028-bdc5-590fe463bcb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11630,7 +11629,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d4622a02-3a49-44dc-a395-afe8948c83e7")
+			(uuid "d0aaff0a-5e28-467b-ba21-20ff63814c8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12621,47 +12620,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/06ce21b8-0366-4cba-a5bb-52eefd2bbd5d")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "be76fa98-3367-4aa0-9dd9-a32ac3fce32b")
+			(uuid "aba6880b-e8cf-48aa-a0eb-f68deeb675a2")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "59daa344-b183-4cb4-9f30-d9aee0a4bc67")
+			(uuid "0e05d5df-3987-4c3c-b0f0-8a805a8c9332")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "17d7120d-f34f-4e6b-85c5-c55de4e80f87")
+			(uuid "dbae74de-8a9b-4867-b4d0-cd03d96b8cfa")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "bf01ee37-1b8e-41dc-a825-c092827cd116")
+			(uuid "d20ff200-8061-405b-9e7c-a332402f3565")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -12671,7 +12670,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "df5ced02-b432-4f1a-942a-70c191e116bf")
+			(uuid "1f1d1e0b-5728-433a-84a1-2c53d85e62fd")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -12681,7 +12680,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "295db6ee-b21f-4ec2-b87c-921496637c4e")
+			(uuid "efc5416a-2844-41f3-af72-ea0f6bb05801")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -12691,7 +12690,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "cae3a9ea-0f69-4554-a18c-a426475b56be")
+			(uuid "13caa11d-b7c8-4caa-be9a-7a69fd7826ce")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -12701,7 +12700,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "bb9e5315-3f67-434e-9a01-456e09ea5d88")
+			(uuid "e5e22e91-0f6c-4c38-a824-af1df0e0421d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 184)
@@ -12731,14 +12730,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "65ecf36e-8b53-4894-a354-c38bffe0e6c0")
-		(at 95.275317 109.036887 4)
+		(at 98.063807 108.963356 4)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW3"
 			(at 4.445 -1.905 184)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2531a796-7c02-42f0-a96e-91e7c3bd363c")
+			(uuid "a9d4588a-0d0d-4a0d-9431-7863dd40866b")
 			(effects
 				(font
 					(size 1 1)
@@ -12746,11 +12745,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "29ad0597-2833-4d58-917d-228df64e452a")
+			(uuid "1a88df70-376c-470b-be5c-8c69c174f75b")
 			(effects
 				(font
 					(size 1 1)
@@ -12763,7 +12762,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0f59e40c-4da2-459a-8dd1-768521d88b4c")
+			(uuid "1cb43190-b6ae-4a37-a78d-ea356867322e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12776,7 +12775,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d8e44b2d-b92b-4013-aabf-f3e04cdb28ec")
+			(uuid "d088a6c7-266a-43e3-81a9-aa4aff28bcef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13767,47 +13766,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/ad63564d-68f4-4b73-838f-e6cb096f55c1")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "35046e3c-5163-4478-a6a4-5c27a5e9a043")
+			(uuid "ab644c94-32d1-4187-b73c-d24ec67ab197")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "7af0d3de-3412-40b7-83d0-6ec6f20be2a8")
+			(uuid "cc0835ca-3bfb-4376-a19b-00468153724e")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "7473e467-ecb2-4b6d-ad95-4d6528f09a5a")
+			(uuid "616ef645-f423-4abf-aa50-95d49426a77a")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "a5080ebf-a3e3-4637-b785-ed9a952b6fb0")
+			(uuid "06098cd5-d627-41c6-a148-603e07ac6f01")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -13817,7 +13816,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0201c9b8-1f27-4f73-aa30-fcf5819d0719")
+			(uuid "bf16617e-a491-484e-bfdc-64fa7d4a13e6")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -13827,7 +13826,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "e0b11013-a8f4-43c2-a586-12e2e661fb2e")
+			(uuid "8deaf22c-3a26-4eb0-9bd1-f8d4ed60e709")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -13837,7 +13836,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9e54c12f-e4fe-47a6-8ee1-6acad6c3ef1e")
+			(uuid "1c48a538-fecd-469f-9f0f-1a60d863c2b5")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -13847,7 +13846,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "33e3d321-39ec-4ef0-8d9a-96363807fa07")
+			(uuid "cf716aa6-6881-48de-88b8-c92c03302836")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 184)
@@ -13877,14 +13876,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "68706fd2-b5b3-46ca-91cd-f634c0815df6")
-		(at 72.04231 153.171401 -75)
+		(at 77.777498 148.6375 -75)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW1"
 			(at 4.445 -1.905 105)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "510569f3-fc83-4339-af6b-41eecf8d1d26")
+			(uuid "0b0fb3b4-07e1-4aa5-861a-a847db39a7bb")
 			(effects
 				(font
 					(size 1 1)
@@ -13892,11 +13891,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 105)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5523c4d3-b1bc-4932-bc6c-851fcaa2177e")
+			(uuid "d0fe7e7a-98a7-4b72-bcfb-8dde55f56aad")
 			(effects
 				(font
 					(size 1 1)
@@ -13909,7 +13908,7 @@
 			(at 0 0 105)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0eb0174e-70a2-4e12-b70c-237780c86864")
+			(uuid "4dd2104f-146b-42ad-bd9d-9d0577048430")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13922,7 +13921,7 @@
 			(at 0 0 105)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "14063d77-9582-4169-99bb-2e9cd5d81a9f")
+			(uuid "88a580f9-cb15-42bb-9c82-23a137aa01cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14913,47 +14912,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/3794c42c-5d98-442b-bcb6-2c03c15fe8eb")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "ed752ba5-0435-4f37-8055-8b88e2323d6b")
+			(uuid "4ce15ea3-777d-4928-9ef6-104380d51198")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "32c3d001-f574-40ed-85c5-443913b0bab7")
+			(uuid "d51472ae-a504-451b-a162-66c65e01941f")
 		)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "0753cd0e-0f35-4d64-a604-939eb8ea02d4")
+			(uuid "4ea9dc88-1f7c-4646-a299-fa397d5ec763")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "8ae22e3f-f7fe-4d7f-92a5-815c20a7479b")
+			(uuid "200959c1-1b06-40b5-9824-6a54c1aed2d5")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -14963,7 +14962,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "7e259891-b5ac-4a9c-9c2f-053ef96ad4a4")
+			(uuid "95644fd6-e14b-4536-a9e9-d0e0cf8ddf1d")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -14973,7 +14972,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ad5decfa-2fe2-40fe-ace5-bae118b30e7c")
+			(uuid "f324cd01-f629-4c96-9e73-8bd838053c05")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -14983,7 +14982,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "605af702-9f76-4936-be03-794e358ba59f")
+			(uuid "4e35cdcc-41ea-476b-a631-9c0f56b6dab6")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -14993,12 +14992,12 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "bbf576a6-9dc1-4397-8c80-f89f112b855c")
+			(uuid "bdc71087-097a-4298-838d-59a6c8e9740f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 105)
 			(layer "B.Fab")
-			(uuid "85b74a36-3739-4ec1-9715-f89474fb67e8")
+			(uuid "5f32f463-3473-4cc3-96fb-6ce92bb30cb2")
 			(effects
 				(font
 					(size 1 1)
@@ -15023,14 +15022,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "82953e81-5347-45e2-87de-b04b3e1cb6e4")
-		(at 154.226865 89.944189)
+		(at 153.164603 91.994188)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW13"
 			(at 4.445 -1.905 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a0eb9b7f-54b1-44cb-8c9d-14660992b465")
+			(uuid "24df002b-5e2d-49f3-88d5-cc60771d0068")
 			(effects
 				(font
 					(size 1 1)
@@ -15038,11 +15037,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "104d4a09-4101-4238-931e-42b06b7b4c8c")
+			(uuid "3addd382-e4b5-4d6a-8a2a-90f8b6b28f8a")
 			(effects
 				(font
 					(size 1 1)
@@ -15055,7 +15054,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6809448c-f2ca-46f6-904b-ec3318b4efa8")
+			(uuid "da742e2f-b8b4-44f0-9ea3-7c878cc67284")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15068,7 +15067,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "213bf8cb-8172-4820-b426-27d3a2923c4d")
+			(uuid "377617a2-4280-46b9-9eba-de7c680fc895")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16059,47 +16058,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/adfe27b9-e155-4b57-ae60-ef425e7fb223")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "5e0fe9c2-bc21-4783-837c-f5aafc3c0b57")
+			(uuid "23e80182-325f-4df9-b962-b7d83def3fbf")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "d21abc20-3f3c-4562-986a-e8b6119fbe53")
+			(uuid "21770578-4511-4276-9a2a-bf3c51d1639f")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "b0837109-0523-476a-9979-a7c0d6b79bd2")
+			(uuid "b71ec156-abe9-4918-93af-7a3e04a5bad7")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "18cfd60a-b0e2-4128-9fc9-da90cd2be3f6")
+			(uuid "64eba9c6-30b4-4fc7-8780-b0af577e67aa")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -16109,7 +16108,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "3a51eeab-6017-4e2c-b0c6-762845090c48")
+			(uuid "480276a2-e3b1-43f8-93d6-4148424bdc1f")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -16119,7 +16118,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0abea86b-7516-4d84-bede-09a02929a542")
+			(uuid "361ce683-e404-4c88-98e6-3def4ae24562")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -16129,7 +16128,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c9a354f0-ef61-4d0e-85e0-ff38d38eb49b")
+			(uuid "40a9c369-fc30-4e97-8fdd-819485baf12a")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -16139,7 +16138,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "3a437480-9254-4a4b-9f36-ef49ca27035f")
+			(uuid "522436c0-e0d4-47bd-8e89-81535811d6ac")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 180)
@@ -16168,1161 +16167,15 @@
 	)
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
-		(uuid "8d4511db-adea-4516-947a-9283a3bc0a54")
-		(at 76.275708 110.375062 4)
-		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
-		(tags "kailh,choc")
-		(property "Reference" "rSW22"
-			(at 4.445 -1.905 184)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d570585f-7ab0-4905-b721-6a7eb7f012e4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 0 -8.89 184)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "affe4497-5708-4ad1-8757-4e9feed06f11")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5118/5118-Choc-Socket.pdf"
-			(at 0 0 184)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3267428f-f4bb-4168-a3e3-4072123d6592")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "SWITCH SKT FOR KAILH CHOC 1=10PC"
-			(at 0 0 184)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2f1be457-3cfb-4046-8c4e-6a8eeed66532")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MFR.Part #" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "cd872e52-dd99-413b-8383-ea5726af06c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "OC_FARNELL" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f4438838-082d-447a-8280-a236cd89f2a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "OC_NEWARK" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "99b25f70-8cc6-44b5-94ea-a0f594214fbc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4d04e944-7c34-4709-9331-21d88eacda0d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "SUPPLIER" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a716b109-8df4-41d7-a20a-c31274512434")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "A_MAX" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e77be8db-1aad-4730-9435-4a50543f9c2c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "BALL_COLUMNS" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5652a26b-5713-4acd-a659-a301f3e85eee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "BALL_ROWS" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "50dd9c13-b044-4125-84f0-cfd205a4964e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "BODY_DIAMETER" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "485a9108-de3f-467a-9bf9-10dc10b7acfa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "B_MAX" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2c1f1a00-6ff6-459e-8f58-c1aad732e68a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "B_MIN" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d046766e-6ce2-42f3-82cd-ddfa7466237a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "B_NOM" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e4eb1d2f-b79d-4434-9457-7d1a190b72a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "D1_MAX" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c78f9f05-facc-403c-a4f4-2d1d5f3b748c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "D1_MIN" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9ccff607-1f6d-419b-98b7-c2509ec3e608")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "D1_NOM" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "57a78c37-48e8-4d3d-9948-6233ece31f6b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "D2_NOM" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a890dc48-08b0-47e7-bb42-cdf955bedfac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "DMAX" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ba050ae5-8590-448b-9b71-47249ee6b34b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "DMIN" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "14592a48-8e58-436a-af39-787e1dd5226f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "DNOM" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "dfa189e7-9770-4e65-a9f6-7acd6ff9cc73")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "D_MAX" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "475dfb75-c142-460b-becc-d6a3456200b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "D_MIN" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d69c8e03-0669-4101-809d-a54ebf4b4427")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "D_NOM" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7282e9e8-f055-41b3-9a53-59bb567107cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "E2_NOM" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "85f9ff87-bad8-428c-88f9-93627d138992")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "EMAX" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "67ba969f-9842-4003-b847-66011aaabe26")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "EMIN" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5445da1d-bb11-4064-9f2e-f000cd4fd74f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "ENOM" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6d81f655-b843-4100-a177-4bd550e3748e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "E_MAX" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4eb9b00a-8465-4881-877a-6bdadbc77257")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "E_MIN" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b652bdc4-2e4a-4a3b-a0ce-595b90b98823")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "E_NOM" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "488b60e9-c14c-4c0a-a49b-bf8801817eed")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "IPC" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fda9fc13-f986-4403-b1ae-1c1b750d967c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "JEDEC" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0401ea5a-6a73-4518-8944-7df89b577111")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "L1_MAX" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2625f5ba-32a7-4201-8f85-c01065316820")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "L1_MIN" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "71c796c1-e1f7-468a-962c-c744da8fd13f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "L1_NOM" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "628dcbe9-08c6-4692-8707-f5b9569ef6d3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "L_MAX" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ccbc121b-55af-40e0-bd49-db6ba50a0281")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "L_MIN" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f7fd520e-de8f-4db7-936c-41d7d85df6b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "L_NOM" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "760e5558-c9d6-410d-8988-fa06eee74e8f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PACKAGE_TYPE" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e0e854a5-2608-4002-899a-e8dddc866118")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PINS" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b64d1b15-b4f9-4243-9059-e1e1cda0daf5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PIN_COLUMNS" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "72cf6deb-408c-4284-8aa1-d78054489568")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PIN_COUNT" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "17d2fccd-7289-4ab7-bbbb-2ffae8f795a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c8ef3fb2-1684-48d8-96c8-729402bd00d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "THERMAL_PAD" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a1ff201a-9492-4a9f-8806-84d66f239e2d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "VACANCIES" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ff89f2f1-46f6-49b9-8c7b-29b7f4e6f5b7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MANUFACTURER" "Adafruit Industries LLC"
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3d50a3be-a2cf-4021-b41c-1c7729731875")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MPN" "5118"
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ccb7bd3f-188e-4e94-b5cc-047a21c11c19")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Availability" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2df421c7-0aeb-4050-8e56-daf75bf03272")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Check_prices" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ee8c4824-8a06-4b9d-b4b6-bfa515fa826b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description_1" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "04a78c57-cf8c-420a-b5cc-a09a2fa98da7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Dielectric" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "da663b13-0915-49ba-b22b-f8d9e4ffa2b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "95334521-8a28-4d84-9088-07d5561c9eae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "00b5be87-9f68-485b-9dd5-ebad22ea497b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MF" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ef163259-4ac8-4af8-9b89-c2b32abec532")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MP" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "431c3a69-e9b9-456d-b4d7-3fdb58552142")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5312a7b6-88e9-47f6-9ced-4122a368f0a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PARTREV" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d73d6b5d-6124-4783-9689-fe16b40f83ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Package" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0fd5344f-1319-43f5-80df-b3a666d3b638")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Part Type" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2207a604-71ce-451e-930c-65506bc9ed35")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Power Rating" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f7082fcb-a000-4731-a4d9-aa91e1a12edb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Price" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2faf4e42-6415-4ba5-9972-d66cb3fd96d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bb078f5b-af98-4ee3-98ed-178d1591473a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Rating" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c1fd6635-107b-4dc3-b46a-b230ca8377ca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Resistance" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fe28ac97-4695-4228-b5b8-619241470d02")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "SKU" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8ff38fdf-bd73-4cbd-86d3-438019df7f66")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "STANDARD" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8b62ae3a-eaf9-4d89-8a36-8837ff6e856b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "baeea1ab-ddbd-44a9-a9a9-cb5aaa13ac48")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Status" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "004daff5-8c2b-4556-9301-41be66872e45")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Temperature" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "75dcd49b-a140-4da5-96d7-1298ea094d85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Tolerance" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9ef75f33-f0ef-43e3-b67a-940b93f55eaf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bab88e5f-40bb-4587-87c1-1d613ad0029d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/50d96a5e-3d25-4129-9495-15388c76587f/9ad55fd6-5858-4395-a181-53d8fb115113")
-		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "15800ee6-db5c-4003-9e55-b48f8c639105")
-		)
-		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "1830c0af-a066-4aa5-9086-270af1cd763d")
-		)
-		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "d2295aa6-8b07-4197-9269-c646bbd4d373")
-		)
-		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "7524df78-ffa9-4e1e-9c7e-5033bc303ee7")
-		)
-		(fp_line
-			(start -6.9 6.9)
-			(end -6.9 -6.9)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "a68acf4e-7ba8-4372-b6d6-39e32b5a3ff8")
-		)
-		(fp_line
-			(start -6.9 6.9)
-			(end 6.9 6.9)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "edb1ac9b-c46c-458b-91f0-78fe15309f75")
-		)
-		(fp_line
-			(start 6.9 -6.9)
-			(end -6.9 -6.9)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "609e30c5-8f40-4fc3-bc9a-4f6c5e16ecbc")
-		)
-		(fp_line
-			(start 6.9 -6.9)
-			(end 6.9 6.9)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "0c428020-9fcd-4145-a118-8e7d05020f38")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -3 5 184)
-			(layer "B.Fab")
-			(uuid "9e4409ff-3233-4fe6-b04c-b257b0c48a2c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(fp_text user "${VALUE}"
-			(at 0 -8.89 184)
-			(layer "F.Fab")
-			(uuid "6e33d77c-b6c3-457f-8d6c-1538ef878759")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
-		(layer "B.Cu")
 		(uuid "9fc72132-0480-4d0c-921c-615aca7f4191")
-		(at 96.60417 128.040482 4)
+		(at 99.249667 125.921944 4)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW2"
 			(at 4.445 -1.905 184)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ec694a83-c739-4b75-b904-4f4c7ae2ec6d")
+			(uuid "54b7cac8-406a-4f8b-9b4b-cc0ba527231e")
 			(effects
 				(font
 					(size 1 1)
@@ -17330,11 +16183,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "77b00323-d854-4042-a768-ccd159b7518c")
+			(uuid "3a1e61a4-ae53-4ffe-9bd4-3e109717e0ec")
 			(effects
 				(font
 					(size 1 1)
@@ -17347,7 +16200,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "259214d2-56c8-4a93-865e-5fe502cbdef6")
+			(uuid "d2a7a1dc-cdbd-4266-915e-c61c1e07d082")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17360,7 +16213,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "906a05c8-2f9b-4dd9-9a82-96be0fc0ed22")
+			(uuid "6820b794-24c1-45f9-8cdc-79d40d181b4f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18351,47 +17204,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/7585795b-7796-4923-a91b-f30d1b179e60")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "31bf2585-8fdf-4ae4-a4e1-bf81e3c8ef85")
+			(uuid "977bde58-a970-45db-8a82-c3e3635660b1")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "9277a0de-2383-4200-a453-647bff46ec4d")
+			(uuid "f05f51dc-9af0-4fd0-92fb-9cd16da1431d")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "b4d870df-29c2-440a-98c2-c9ef0c4310f4")
+			(uuid "496a6e0e-8d05-4f7c-b321-718c2e0c6491")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "18b0ae7b-7274-4906-a53e-bbe2d06ab180")
+			(uuid "a4615bf2-eeae-4e33-aa30-69019e84c4b7")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -18401,7 +17254,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d74ef188-d874-403e-a698-ce92a0cfed2b")
+			(uuid "6ecc1c8b-c0e9-47f1-a88d-feeef060fe77")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -18411,7 +17264,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "31857642-13f6-4904-ae23-51700a19d62f")
+			(uuid "03da8467-7594-4da4-ad9b-d21ea128d4a1")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -18421,7 +17274,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "fd7e3f4c-1f13-4c08-af1e-bfebe1ca3ee5")
+			(uuid "bee68ff7-f691-4639-b97a-311644f4b4f9")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -18431,7 +17284,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "2ce08d7e-20ad-4c0e-9b5c-0aa2d0637195")
+			(uuid "8fdd240e-b11c-4b61-9b68-82412bc32208")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 184)
@@ -18461,14 +17314,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "a8a7e715-d385-497c-ba02-b0abd74aaef7")
-		(at 91.969055 147.469502 4)
+		(at 95.946453 143.194437 4)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW8"
 			(at 4.445 -1.905 184)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2a1c109d-e025-411c-ab90-819df3dbe580")
+			(uuid "ca27d927-9616-4b15-b0c8-9846ccdb1927")
 			(effects
 				(font
 					(size 1 1)
@@ -18476,11 +17329,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f42f1809-18fd-462f-8769-e76d1038e8ea")
+			(uuid "d0b2d699-82b0-4bc2-9b6f-0082d4fb2c1f")
 			(effects
 				(font
 					(size 1 1)
@@ -18493,7 +17346,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "55ddc440-413f-4c01-af75-f72395d53c87")
+			(uuid "c1147cfb-d543-440c-9618-efa2f5ece3d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18506,7 +17359,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "59ec0767-4714-4890-8813-a69e11ea49bc")
+			(uuid "c2dcf6fb-12d2-44f9-b39d-3d384f992fb5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19497,47 +18350,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/c8506d02-dd17-4e43-93a2-0bfae92a9ffd")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "b7e0117b-2f33-4469-bdf9-437075a73b48")
+			(uuid "c13dc64c-bc47-422c-b0a6-3afc7351f841")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "200dd527-8de1-4562-b5ef-698cb907a376")
+			(uuid "e1714a83-4524-47d5-b03e-4ad1cd2d9ad1")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "d4f97868-c22a-4dd8-a4cc-961bdd78c550")
+			(uuid "28402e63-99cf-4fcf-bfdb-14b7a77873d5")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "c203c108-56f9-47a9-b292-3d297c56185f")
+			(uuid "6393b65b-60d2-420f-815c-98224d83553b")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -19547,7 +18400,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "fdfb39ee-75d2-42cf-939d-1ae1ae6ce1db")
+			(uuid "8bb188c9-61af-4609-9042-b72e345c43f3")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -19557,7 +18410,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ca6fed0a-9adf-4f84-aed1-b715d3a85836")
+			(uuid "df19e86a-fc2b-41cd-b851-0376021d9b42")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -19567,7 +18420,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "000d2ebc-1b0f-4589-bcda-e814e14edcd6")
+			(uuid "1001db2d-d53c-489d-845c-01ff23bca667")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -19577,7 +18430,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d8c4bb9e-d19e-4d9f-b60e-996461506f98")
+			(uuid "47240894-2c02-4ddd-b451-5924136bb74b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 184)
@@ -19607,14 +18460,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "bd3e21fa-d417-4923-aab4-9269563731b9")
-		(at 191.91058 144.750469 -9)
+		(at 188.22684 142.559147 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW21"
 			(at 4.445 -1.905 171)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ac62595d-a55d-4270-8754-553a142f9e18")
+			(uuid "9e1fe933-0af9-4cc2-b94c-bc8002ad501d")
 			(effects
 				(font
 					(size 1 1)
@@ -19622,11 +18475,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d6b5be1f-4535-4480-9162-32b785b6ea0b")
+			(uuid "a3d88178-2706-4331-b960-5164ef32dc75")
 			(effects
 				(font
 					(size 1 1)
@@ -19639,7 +18492,7 @@
 			(at 0 0 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e1d097e5-f3d6-4457-8454-5f80a8309eaa")
+			(uuid "101aef98-b582-481e-ae2e-eeb00f3234bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19652,7 +18505,7 @@
 			(at 0 0 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6732d0ef-27bb-4b5a-a9e5-99bac27f15f1")
+			(uuid "1dee3387-260f-4ccd-915d-8affa454a8d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20643,47 +19496,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/55b65224-c13f-4813-8c78-97e2ec4cb5e0")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "42342819-0d46-4f65-8e3a-b9b37c1a1a30")
+			(uuid "711146d6-85c1-4be5-8b12-d06629af86f2")
 		)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "612e4909-a3e1-4fee-9b26-e34350883f91")
+			(uuid "7cacbfd9-a35c-4f38-8edc-8f717e715800")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "415aaa45-b7ec-4479-9114-ec9c69e87590")
+			(uuid "33842f3c-3cf8-44cb-bb13-42051a4bbdce")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "34546c0e-f27d-47b1-9cc2-a28377d61454")
+			(uuid "8337c36b-e1a5-47d0-b723-3e5e2f4d4356")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -20693,7 +19546,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "e3ffb835-6a3f-485b-9548-662ad04fca28")
+			(uuid "dde159b5-d654-41ee-b593-d03726e89baa")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -20703,7 +19556,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "3c0ea394-b194-4cd4-868a-b3bdb60faa8d")
+			(uuid "407a59ec-89fe-48a9-abb0-a8494cc38758")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -20713,7 +19566,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "19693d60-d249-4754-ad51-4a2fac02ee6a")
+			(uuid "dedfb7a5-9de7-45ff-8e5f-075440f511d3")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -20723,7 +19576,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ee63eac9-421f-43e8-9437-f770b4f74a29")
+			(uuid "ed28870c-66a7-4d7f-a1d7-39dfd16a522e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 171)
@@ -20753,14 +19606,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "c0e1688e-5635-4fd2-8769-42c2b8b6e323")
-		(at 135.164601 79.215846)
+		(at 135.164603 81.265845)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW12"
 			(at 4.445 -1.905 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fd92a1c0-e43e-46fd-8c7e-4471700879a6")
+			(uuid "2b6c6b03-cc38-4d88-8e56-85facecdc517")
 			(effects
 				(font
 					(size 1 1)
@@ -20768,11 +19621,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6967ef84-44f9-4553-99e6-b24c273c748d")
+			(uuid "2bc1b7be-793a-4c27-9ebf-a43137558a54")
 			(effects
 				(font
 					(size 1 1)
@@ -20785,7 +19638,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4ceba982-281d-4a1e-826d-7151e87d2901")
+			(uuid "c1475107-85eb-4eb9-ac2d-70fbfd82039f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20798,7 +19651,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5254dcd7-30d1-4a2d-923b-a877b6c22a96")
+			(uuid "7a7cf543-e5b1-4095-925d-2accac02768d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21789,47 +20642,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/064f1d9c-62db-4565-ba6f-668ba2d44535")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "2d28944d-813a-43c1-ab02-c7813ad0fa20")
+			(uuid "1ea00117-bc07-4200-8476-b0fb25802529")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "ba5d6510-36d0-48e2-8686-6b54d781c96b")
+			(uuid "44eaffe6-2ebe-43bf-80fe-5624b9fa3578")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "e11d9d73-2490-43e1-90dc-477463d64433")
+			(uuid "1f4827c1-9c2c-4d38-a673-a056a03b6933")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "293a0f8c-db53-40a6-a2c8-21b8507e4441")
+			(uuid "bdad8e8b-7d24-450d-9d03-00e978941787")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -21839,7 +20692,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "bf2d6b4b-7c5d-40d0-b8e5-bc1f7822600d")
+			(uuid "82c366d5-9a7d-4146-b292-f415d4612d34")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -21849,7 +20702,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "5ca75e10-2be7-4855-8b37-f3057e7f6f78")
+			(uuid "8720ccd2-602f-41a2-93bb-7e099964050a")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -21859,7 +20712,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "240ccf7d-0472-4e93-a21e-e45ce6796e09")
+			(uuid "01ee0b4a-085b-4d84-8e6b-61d28a503932")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -21869,7 +20722,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "fe6d3837-6f7a-4513-9cda-6552c4c8706d")
+			(uuid "84a3cffc-b11c-4207-8906-26e56f7c45f0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 180)
@@ -21899,14 +20752,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "cde02137-8abf-4463-a1a1-fbf770211ec5")
-		(at 194.889259 125.934485 -9)
+		(at 190.88591 125.76829 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW20"
 			(at 4.445 -1.905 171)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f2927d70-ecf8-4b4a-9321-2695fd71ce26")
+			(uuid "a654123c-28f7-45b9-a05e-8ecbb39ffb08")
 			(effects
 				(font
 					(size 1 1)
@@ -21914,11 +20767,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "08b1edc9-4be0-4680-89ef-4872ac647a09")
+			(uuid "883642cd-587d-4fc8-9620-3164c46dccd0")
 			(effects
 				(font
 					(size 1 1)
@@ -21931,7 +20784,7 @@
 			(at 0 0 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f5f9c9f0-85f5-4bc5-b0c6-d3d3c8ea39a9")
+			(uuid "39812eab-232a-443b-8b74-a16fa3289858")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21944,7 +20797,7 @@
 			(at 0 0 171)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "815c0051-0b30-4410-8edf-414990df97a1")
+			(uuid "f7834822-6425-4a48-9c8a-c8411050a68a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22935,47 +21788,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/b25cf06d-d0e7-45f0-bca7-ccd53771d448")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "dd565687-c1cb-47e8-88a0-018654276309")
+			(uuid "3d7f6601-5640-437b-8a85-2c0c18e69432")
 		)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "17eff7b9-3b4e-4649-b596-30d94ecc8ed6")
+			(uuid "7d41e7da-ad37-4f14-8b7a-bfc7a6b15b9e")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "e908be16-71d4-492f-9f0e-4e1db5cf2c7e")
+			(uuid "1b07981b-b550-45d8-ac0f-de9bbdb9e0b6")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "54a2fd4a-4be1-430d-97a4-a3eb92b417e6")
+			(uuid "4d2287a6-c61a-42bb-acea-2b8b563ae284")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -22985,7 +21838,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "5cf470af-252e-4f36-8aee-32f3b440df23")
+			(uuid "fdfa800a-7d81-4551-84a8-72637c871821")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -22995,7 +21848,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "6f540cf4-a93f-4190-8e43-44d8328f1026")
+			(uuid "b2144150-4586-427d-bedc-c37a1a366e88")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -23005,7 +21858,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "b9ef62d0-5bae-4137-a6ee-2631891f9119")
+			(uuid "595d8e47-c0f9-45fc-8170-9d33a2eed6bf")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -23015,7 +21868,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "75209e3d-f4b0-4379-88c3-c8f6ecf27813")
+			(uuid "51dd40d9-ac51-4a51-a9ce-b1e8b7c61772")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 171)
@@ -23045,14 +21898,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "d436e55a-286e-40af-8c86-dc227051e13a")
-		(at 154.226865 108.994189)
+		(at 153.164603 108.994188)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW14"
 			(at 4.445 -1.905 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ab25d76e-f9d2-40e6-9e44-6851f9093453")
+			(uuid "07e3b6f3-01f8-4bd6-8b4f-f257fd8c7b00")
 			(effects
 				(font
 					(size 1 1)
@@ -23060,11 +21913,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8ea7166a-5585-4d13-92d5-e7a150e176e8")
+			(uuid "4b26d892-7a68-4d55-9529-a899a2e3ccd4")
 			(effects
 				(font
 					(size 1 1)
@@ -23077,7 +21930,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6c37c221-4c45-4c96-b19d-9b164c89a948")
+			(uuid "da2bbb1b-e638-489c-ab76-de0ad3a5ff78")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23090,7 +21943,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "777c4c4a-deb5-43df-bade-11f714f2d3c8")
+			(uuid "fa0e29aa-7a69-4f6d-b4ee-5bfb72e04d23")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24081,47 +22934,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/8e42b370-b927-426d-afaf-f64b5dbe6f44")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "a418c408-31ef-487b-852a-faf426e46572")
+			(uuid "9ff39628-ff63-4a02-9a8e-096b4a5594a3")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "93153af0-4357-4dae-a25d-82a5fd5d9dfb")
+			(uuid "f9a85528-cf85-4996-8c1c-b00627c1004c")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "ba85b816-e2df-4622-98a9-37ab4fd55d0d")
+			(uuid "7c47ab69-9ead-4e84-a06d-5b3b3d6c84ce")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "e299f5de-a80e-42a2-b095-6594b85bb635")
+			(uuid "33aca5d1-0f53-4a5b-b318-108a186a7cbc")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -24131,7 +22984,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0e87fd51-7262-4db5-9423-f6036e8e3b0b")
+			(uuid "222fea33-f0a8-4ca1-a858-2ccfbea84520")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -24141,7 +22994,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "220679ff-8cd3-40cc-a6ab-2df7aeb2683d")
+			(uuid "30d33485-2a37-4695-879f-4b01cb2b7b00")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -24151,7 +23004,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "3170032b-f55d-48fd-b9ac-1f3f26fe182d")
+			(uuid "551a87f8-ba81-461d-a2a7-61c18f2b5144")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -24161,7 +23014,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "a4d9d85c-446e-4ed2-8bd5-b601936c42ca")
+			(uuid "093ab6bc-b69d-48b8-98f8-d93227485889")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 180)
@@ -24191,14 +23044,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "e17985a0-0603-4432-bce6-beaab57bd0c7")
-		(at 112.950059 88.704145 4)
+		(at 114.8341 90.74915 4)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW5"
 			(at 4.445 -1.905 184)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "aac8ea03-2e3e-40a3-919a-0cb7ef69dc60")
+			(uuid "c9bd7e70-dd59-4eae-960c-d04829020472")
 			(effects
 				(font
 					(size 1 1)
@@ -24206,11 +23059,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b0d800cf-d3a1-43a5-b5fc-f8219508fb41")
+			(uuid "67b9f1a9-c110-4be0-b07e-2c2b3f0d9e2a")
 			(effects
 				(font
 					(size 1 1)
@@ -24223,7 +23076,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "99cb3dde-df5d-4442-b850-600d39736610")
+			(uuid "26a506e3-6a49-4d26-82b5-6f54c5f7dcd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24236,7 +23089,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c5fc5b62-a2e4-489b-b4ee-691c10118907")
+			(uuid "83cbf28c-0ff8-4821-b752-49c17a3e65f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25227,47 +24080,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/1f24a632-b44a-4f84-943b-43e78f588e6e")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "4ad5cd49-6561-4b94-9dc4-8027d91f6da7")
+			(uuid "29669108-cd8b-4fe3-9c45-8f7a5e7860fc")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "b91ef88a-d792-4f25-98c7-4840dacadee6")
+			(uuid "3f9c5092-b797-42d0-b5ee-489f84f49d50")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "512a2fe5-8beb-4ec4-b5f8-09ea7fac952f")
+			(uuid "da9fb555-ea81-4b6d-8aa8-3187ce7d6f42")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "699c7847-a3d8-444a-b898-f6679dc47675")
+			(uuid "d0962a9f-c0b5-47cb-bafb-f4a3adbb4d16")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -25277,7 +24130,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9804c36e-a91a-416c-9c9d-d8f0215a793e")
+			(uuid "129f9a96-b624-4c84-9e0f-c69dc5560027")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -25287,7 +24140,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "7c05282b-1070-4856-b584-ccbc31f5e5e8")
+			(uuid "4b3f048b-7248-468b-9fd2-f36cf17c4d01")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -25297,7 +24150,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "80a9d579-7676-4c23-acde-61add85d0d2a")
+			(uuid "8cf93356-77bb-4c17-b257-5b7ae55902a5")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -25307,7 +24160,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "49cf71d9-da1c-48dc-9d83-f679e98da115")
+			(uuid "13792a5e-4c8b-4382-afe9-833ea0094006")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 184)
@@ -25337,14 +24190,14 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "ff68511d-080b-43af-8a00-c3c58b83e50c")
-		(at 115.607765 126.711335 4)
+		(at 117.20582 124.666328 4)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW7"
 			(at 4.445 -1.905 184)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1859b2a3-532c-4fa7-b8a7-e3fe7cac9102")
+			(uuid "11b4af2d-9752-4ccf-bb0f-03d989cfa2b3")
 			(effects
 				(font
 					(size 1 1)
@@ -25352,11 +24205,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Kailh Choc v1"
 			(at 0 -8.89 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b6f39226-53e1-4a8d-b54d-2ea0abfe4c9a")
+			(uuid "e93eae2f-7458-4832-b155-ea7cc48e05ad")
 			(effects
 				(font
 					(size 1 1)
@@ -25369,7 +24222,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a4c30724-5e41-47f5-9282-46204b560316")
+			(uuid "012a0389-f44e-457b-89f1-910be757a621")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25382,7 +24235,7 @@
 			(at 0 0 184)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "506e78e3-6af9-46ea-883e-9678930584d3")
+			(uuid "0ca222bf-64db-47b2-b2df-4244413a38d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26373,47 +25226,47 @@
 		)
 		(path "/50d96a5e-3d25-4129-9495-15388c76587f/8ac22dd0-7df3-405a-8822-0b0e489622dc")
 		(sheetname "/right/")
-		(sheetfile "../../common/right.kicad_sch")
+		(sheetfile "common/right.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
+			(start -9 -8.5)
+			(end -9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "9675ff3a-7307-4a49-8d54-6c6abad8b25b")
+			(uuid "522d38e4-af75-4e52-a0d8-01d7503f7166")
 		)
 		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
+			(start -9 8.5)
+			(end 9 8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "f77bd452-b581-4264-80e6-2d02a649a0a8")
+			(uuid "846d03b2-dced-49cf-b696-2bb149d92f74")
 		)
 		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
+			(start 9 -8.5)
+			(end -9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "06add8ca-87fc-4019-9f3e-27ab1c6386f4")
+			(uuid "c3d6ee92-9a28-4cad-beff-7ec95c67be3f")
 		)
 		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
+			(start 9 8.5)
+			(end 9 -8.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "f67fc7b5-5302-4206-aad3-bf3dc5c2e82e")
+			(uuid "7f7df2d2-8a05-4b28-b576-c646d7a5c7e1")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -26423,7 +25276,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9433ecc9-9416-477e-bb09-e19131a45f4d")
+			(uuid "3edff6fe-ab6b-4bd1-8b7e-3dc267cec339")
 		)
 		(fp_line
 			(start -6.9 6.9)
@@ -26433,7 +25286,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9caaea5a-b725-46b0-85b3-db2ac78aba4a")
+			(uuid "edf99a6f-086f-4df2-9e58-361e8fe7edbc")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -26443,7 +25296,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "3c2cd792-c4d8-4b15-91c5-d127fce41213")
+			(uuid "99ac78f0-32f9-492f-8416-196d4c733a63")
 		)
 		(fp_line
 			(start 6.9 -6.9)
@@ -26453,7 +25306,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "fd38f356-ce47-4fd4-b295-bc4340162110")
+			(uuid "cc901cde-916e-4cef-9826-581b3db43c34")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3 5 184)
@@ -26481,50 +25334,19 @@
 		(embedded_fonts no)
 	)
 	(gr_arc
-		(start 59.866522 145.013748)
-		(mid 59.966417 144.254753)
-		(end 60.573839 143.788828)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bf1652fa-31b9-4c45-9125-adf3c349ed42")
-	)
-	(gr_line
-		(start 60.573804 143.788828)
-		(end 67.998511 141.801444)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "295cd969-4ab4-41e7-9407-dd2351cd06a7")
-	)
-	(gr_line
-		(start 65.581573 166.330078)
-		(end 59.866522 145.013748)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f829760b-ac84-40b3-8aea-0d17fe19cb25")
-	)
-	(gr_arc
-		(start 66.806493 167.037395)
-		(mid 66.047498 166.9375)
-		(end 65.581573 166.330078)
+		(start 63.605279 98.518411)
+		(mid 64.570478 95.607403)
+		(end 67.313372 94.235504)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "f7a1a29b-37af-4385-9cd8-3e75fa42e3ef")
+		(uuid "8f1a8b2d-c6a2-4c7c-ba5f-7c1dca23b0ac")
 	)
 	(gr_line
-		(start 68.737419 140.762701)
-		(end 66.153827 104.172087)
+		(start 66.640593 139.872992)
+		(end 63.605279 98.518411)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26533,40 +25355,82 @@
 		(uuid "6f0298d7-94bc-45ad-9dd0-4f0b3bcedf29")
 	)
 	(gr_arc
-		(start 68.737419 140.762701)
-		(mid 68.554922 141.414939)
-		(end 67.99864 141.80134)
+		(start 66.672032 140.059029)
+		(mid 66.651912 139.966754)
+		(end 66.640593 139.872992)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "3b76bc23-f4a7-426c-8605-bc7849d1deec")
+		(uuid "71cffce5-a2fd-4cf0-8e5e-d63b2264130e")
 	)
 	(gr_line
-		(start 68.915116 103.9775)
-		(end 66.153827 104.172087)
+		(start 67.313372 94.235504)
+		(end 84.908488 92.995607)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "c3222aa1-0711-4f5c-be37-7cfb61243783")
-	)
-	(gr_circle
-		(center 78.497498 141.6375)
-		(end 79.497498 141.6375)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "0bdc84fd-b9ad-474d-b974-311f1faf5cb6")
+		(uuid "68a15085-8ed8-4fa2-83f2-9555c0117581")
 	)
 	(gr_line
-		(start 83.244965 81.102005)
-		(end 124.585791 78.22247)
+		(start 72.477498 161.7175)
+		(end 66.672032 140.059029)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f829760b-ac84-40b3-8aea-0d17fe19cb25")
+	)
+	(gr_curve
+		(pts
+			(xy 72.477498 161.7175) (xy 108.517498 152.6675) (xy 128.087498 142.7375) (xy 195.787498 152.3675)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "01567966-aa26-4704-99d7-d004bd8a06a0")
+	)
+	(gr_arc
+		(start 87.375596 85.153573)
+		(mid 87.619063 84.428752)
+		(end 88.303461 84.087806)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9ff8a261-c9e4-46a4-98ca-49b470602665")
+	)
+	(gr_arc
+		(start 87.693133 89.798231)
+		(mid 86.962422 91.973127)
+		(end 84.908488 92.995607)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "628e82eb-b306-496f-9b8a-589a35d44a93")
+	)
+	(gr_line
+		(start 87.693133 89.798231)
+		(end 87.375596 85.153573)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "65f05129-35f6-49d4-bb7a-a2289103c361")
+	)
+	(gr_line
+		(start 88.303461 84.087806)
+		(end 125.237304 81.503287)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26574,105 +25438,31 @@
 		(layer "Edge.Cuts")
 		(uuid "e3a5bc86-c635-47fb-8a3d-08169b410378")
 	)
-	(gr_line
-		(start 84.807498 102.853511)
-		(end 82.67758 103.007494)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "62ba814c-0bbf-4854-9b72-71a400f0e473")
-	)
-	(gr_line
-		(start 84.807498 102.853511)
-		(end 83.244965 81.102005)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "536051e9-9d70-4571-8f13-ff450c231e91")
-	)
-	(gr_circle
-		(center 105.697498 121.2575)
-		(end 106.697498 121.2575)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "d98f1131-c967-40ee-90a3-4a52a037d997")
-	)
-	(gr_curve
-		(pts
-			(xy 120.850479 155.086135) (xy 95.957496 158.387501) (xy 76.357498 164.6175) (xy 66.806491 167.037395)
-		)
+	(gr_arc
+		(start 126.167498 73.767499)
+		(mid 126.460391 73.060392)
+		(end 127.167498 72.767499)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "fcb04c22-9e28-4cf6-988a-e0c2e5a39691")
+		(uuid "72e7981b-9872-461f-9098-4ce67e932af3")
 	)
 	(gr_arc
-		(start 122.035572 153.796363)
-		(mid 121.667498 154.6475)
-		(end 120.850479 155.086127)
+		(start 126.167498 80.505727)
+		(mid 125.898859 81.18769)
+		(end 125.237304 81.503287)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "2122515c-8370-4dee-9946-bab90ad3c26a")
+		(uuid "64666ccf-279f-4c24-8c68-40759b532d19")
 	)
 	(gr_line
-		(start 122.035572 153.796363)
-		(end 122.022498 137.8175)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "dcca1b64-4dba-4840-a0e0-dbccbb6cbafd")
-	)
-	(gr_circle
-		(center 122.117498 85.2175)
-		(end 123.117498 85.2175)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "613ee3e2-2bab-42a2-bb49-f536e24e91f0")
-	)
-	(gr_arc
-		(start 125.517498 70.567514)
-		(mid 125.810396 69.860402)
-		(end 126.517512 69.567514)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "55111e85-a133-493c-ad39-bdc4bf71c999")
-	)
-	(gr_arc
-		(start 125.517498 77.224869)
-		(mid 125.24882 77.906931)
-		(end 124.58713 78.222441)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "17a5a3fa-52cf-4334-aff9-2b98a2a0a366")
-	)
-	(gr_line
-		(start 125.517498 77.224869)
-		(end 125.517498 70.567514)
+		(start 126.167498 80.505727)
+		(end 126.167498 73.767499)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26681,8 +25471,8 @@
 		(uuid "91402f72-1411-4f53-a832-c6746270c376")
 	)
 	(gr_line
-		(start 143.817259 69.5675)
-		(end 126.517512 69.567514)
+		(start 143.167498 72.767493)
+		(end 127.167498 72.767499)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26691,19 +25481,19 @@
 		(uuid "f815eb93-4892-4234-aa80-894e27674c7d")
 	)
 	(gr_arc
-		(start 143.817259 69.567758)
-		(mid 144.524526 69.860553)
-		(end 144.817517 70.567739)
+		(start 143.167498 72.767493)
+		(mid 143.874605 73.060386)
+		(end 144.167498 73.767493)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "25bf0d35-2e38-475d-8508-ad6eb7f6c36a")
+		(uuid "4f073069-86eb-483b-887d-4d8f4862e590")
 	)
 	(gr_line
-		(start 144.817679 79.287844)
-		(end 144.817517 70.567739)
+		(start 144.167498 82.4975)
+		(end 144.167498 73.767493)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26712,50 +25502,19 @@
 		(uuid "7ee825e8-ddd2-495e-909a-920c53083e71")
 	)
 	(gr_arc
-		(start 145.817154 80.288024)
-		(mid 145.110328 79.994876)
-		(end 144.817679 79.287844)
+		(start 145.167498 83.4975)
+		(mid 144.460393 83.204606)
+		(end 144.167498 82.4975)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "efcb352b-fa1e-401e-90b1-290d37a0efc6")
+		(uuid "511aada5-cc69-45f7-adfc-297f5e63d174")
 	)
 	(gr_line
-		(start 157.035745 151.18707)
-		(end 157.037498 137.7475)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f32bfaff-7674-4a1a-9412-e788a7324027")
-	)
-	(gr_line
-		(start 157.037498 137.7475)
-		(end 122.022498 137.8175)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "6a1589a9-33da-4f4b-addb-152218544571")
-	)
-	(gr_arc
-		(start 158.42006 152.613289)
-		(mid 157.428163 152.191112)
-		(end 157.035745 151.18707)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "72fc046d-6a91-42e1-bb48-2ce3e5f9e673")
-	)
-	(gr_line
-		(start 162.878097 80.296976)
-		(end 145.817154 80.288024)
+		(start 161.167498 83.4975)
+		(end 145.167498 83.4975)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26764,30 +25523,19 @@
 		(uuid "833464f7-2dc3-465c-972e-d9a8fd3b850f")
 	)
 	(gr_arc
-		(start 162.878097 80.296976)
-		(mid 163.584837 80.590028)
-		(end 163.877572 81.2969)
+		(start 161.167498 83.4975)
+		(mid 161.874605 83.790393)
+		(end 162.167498 84.4975)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "b9b2d4e7-033a-4d52-a5a5-84dedd605630")
-	)
-	(gr_circle
-		(center 163.437498 138.3275)
-		(end 164.437498 138.3275)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "e7d80315-7ae9-4b7e-97dd-2083b65a5467")
+		(uuid "07da52d4-0353-446f-a873-92912a86ff44")
 	)
 	(gr_line
-		(start 163.877572 81.2969)
-		(end 163.877504 91.11698)
+		(start 162.167498 84.4975)
+		(end 162.167498 94.543444)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26796,52 +25544,19 @@
 		(uuid "a72b4585-30e8-41aa-9226-5972994f8e99")
 	)
 	(gr_arc
-		(start 164.721192 92.104695)
-		(mid 164.117138 91.76648)
-		(end 163.877504 91.11698)
+		(start 163.011036 95.531128)
+		(mid 162.407068 95.192884)
+		(end 162.167498 94.543444)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "48494ec2-d255-4f2d-954e-2c5ae9f7b2c4")
-	)
-	(gr_circle
-		(center 168.437498 100.6475)
-		(end 169.437498 100.6475)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "d3158383-f21b-48d7-93ec-bc68591fcc0e")
-	)
-	(gr_curve
-		(pts
-			(xy 198.417503 155.567501) (xy 179.477496 152.907501) (xy 167.417496 152.667501) (xy 158.42006 152.613289)
-		)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4ebc6097-8c2c-4069-b923-4a8ad382d320")
-	)
-	(gr_arc
-		(start 200.170444 154.433617)
-		(mid 199.517268 155.345768)
-		(end 198.417498 155.5675)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f2b1e85f-dd35-479a-9eb4-99395217cc1a")
+		(uuid "530dbe1a-29a8-4a37-bdf3-111f890f5dc6")
 	)
 	(gr_line
-		(start 200.171985 154.433861)
-		(end 208.751627 100.084887)
+		(start 195.787498 152.3675)
+		(end 203.612603 102.975447)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26850,8 +25565,8 @@
 		(uuid "6f6a5808-f80a-4789-b77d-8ff4f006f8c6")
 	)
 	(gr_line
-		(start 207.920171 98.941248)
-		(end 164.721192 92.104695)
+		(start 202.781383 101.831286)
+		(end 163.01262 95.531379)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26860,31 +25575,25 @@
 		(uuid "a3f9e0c6-0f44-4f8e-9119-0d24ba6db55c")
 	)
 	(gr_arc
-		(start 207.920171 98.941248)
-		(mid 208.572736 99.340902)
-		(end 208.751627 100.084887)
+		(start 202.781383 101.831286)
+		(mid 203.43396 102.231217)
+		(end 203.612603 102.975447)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6ddcb50f-9eb7-4328-b017-212e28fd1baf")
+		(uuid "6bfaf369-9559-4986-a237-07e1c6a6d68d")
 	)
-	(group ""
-		(uuid "006363b0-e949-491a-91ee-8c8f07624cf4")
-		(members "0a326881-248b-4908-a659-c902df8b8280" "13d26587-90b2-440c-b23c-d7ddce58c9f5"
-			"19dbb921-5af6-4f05-802f-e50f84897b5d" "21fff6dc-6154-4791-9f97-364a5c52d943"
-			"38419885-a9ea-4f4c-9386-35876af4f88d" "3fd7ce58-4a02-4dc1-8c7b-9a13e30a2e20"
-			"47975ba0-0329-4591-ac3c-94e23ee35307" "47cbcf17-76b5-4572-9121-50380728d911"
-			"47e29f18-a51f-4e93-b021-6244b98fad6d" "4d61a58a-a8d8-4fa1-9cee-0549d1ee61c7"
-			"4ebc6097-8c2c-4069-b923-4a8ad382d320" "52d01f35-d9f0-4c03-86ca-6c119fdcda6e"
-			"65ecf36e-8b53-4894-a354-c38bffe0e6c0" "68706fd2-b5b3-46ca-91cd-f634c0815df6"
-			"82953e81-5347-45e2-87de-b04b3e1cb6e4" "8d4511db-adea-4516-947a-9283a3bc0a54"
-			"9fc72132-0480-4d0c-921c-615aca7f4191" "a8a7e715-d385-497c-ba02-b0abd74aaef7"
-			"bd3e21fa-d417-4923-aab4-9269563731b9" "c0e1688e-5635-4fd2-8769-42c2b8b6e323"
-			"cde02137-8abf-4463-a1a1-fbf770211ec5" "d436e55a-286e-40af-8c86-dc227051e13a"
-			"e17985a0-0603-4432-bce6-beaab57bd0c7" "fcb04c22-9e28-4cf6-988a-e0c2e5a39691"
-			"ff68511d-080b-43af-8a00-c3c58b83e50c"
+	(gr_text "${REFERENCE}"
+		(at 169.674794 114.977884 170)
+		(layer "F.Fab")
+		(uuid "e1a19716-fb27-416c-a29f-c3bec63899bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(embedded_fonts no)
