@@ -78,8 +78,8 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(aux_axis_origin 72.482426 161.7175)
-		(grid_origin 72.477498 161.699107)
+		(aux_axis_origin 72.477498 161.7175)
+		(grid_origin 72.477498 161.7175)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_57555550)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -113,7 +113,7 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 3)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -25334,9 +25334,9 @@
 		(embedded_fonts no)
 	)
 	(gr_arc
-		(start 63.605279 98.518411)
-		(mid 64.570478 95.607403)
-		(end 67.313372 94.235504)
+		(start 65.2623 121.070106)
+		(mid 66.227498 118.159107)
+		(end 68.970393 116.787199)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -25346,7 +25346,7 @@
 	)
 	(gr_line
 		(start 66.640593 139.872992)
-		(end 63.605279 98.518411)
+		(end 65.260512 121.070106)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -25366,8 +25366,8 @@
 		(uuid "71cffce5-a2fd-4cf0-8e5e-d63b2264130e")
 	)
 	(gr_line
-		(start 67.313372 94.235504)
-		(end 84.908488 92.995607)
+		(start 68.969923 116.787199)
+		(end 86.492853 115.546483)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -25387,14 +25387,14 @@
 	)
 	(gr_curve
 		(pts
-			(xy 72.477498 161.7175) (xy 108.517498 152.6675) (xy 128.087498 142.7375) (xy 195.787498 152.3675)
+			(xy 72.477498 161.7175) (xy 102.717498 153.769107) (xy 106.687498 152.239107) (xy 123.467498 149.874502)
 		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "01567966-aa26-4704-99d7-d004bd8a06a0")
+		(uuid "738c4bbb-e147-44df-a339-d8f54e9ece8b")
 	)
 	(gr_arc
 		(start 87.375596 85.153573)
@@ -25407,27 +25407,6 @@
 		(layer "Edge.Cuts")
 		(uuid "9ff8a261-c9e4-46a4-98ca-49b470602665")
 	)
-	(gr_arc
-		(start 87.693133 89.798231)
-		(mid 86.962422 91.973127)
-		(end 84.908488 92.995607)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "628e82eb-b306-496f-9b8a-589a35d44a93")
-	)
-	(gr_line
-		(start 87.693133 89.798231)
-		(end 87.375596 85.153573)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "65f05129-35f6-49d4-bb7a-a2289103c361")
-	)
 	(gr_line
 		(start 88.303461 84.087806)
 		(end 125.237304 81.503287)
@@ -25437,6 +25416,47 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e3a5bc86-c635-47fb-8a3d-08169b410378")
+	)
+	(gr_arc
+		(start 89.277498 112.349107)
+		(mid 88.546787 114.524003)
+		(end 86.492853 115.546483)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "628e82eb-b306-496f-9b8a-589a35d44a93")
+	)
+	(gr_line
+		(start 89.277498 112.349107)
+		(end 87.375596 85.153573)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "65f05129-35f6-49d4-bb7a-a2289103c361")
+	)
+	(gr_line
+		(start 122.407498 134.459107)
+		(end 162.157509 134.459107)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c1dee754-0eda-4c87-8558-8b80bba7cc0d")
+	)
+	(gr_line
+		(start 123.467498 149.874502)
+		(end 122.407498 134.459107)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bb693b34-c67e-4b99-a949-b71d9cdd551d")
 	)
 	(gr_arc
 		(start 126.167498 73.767499)
@@ -25511,6 +25531,27 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "511aada5-cc69-45f7-adfc-297f5e63d174")
+	)
+	(gr_line
+		(start 159.927498 148.744502)
+		(end 162.157509 134.459107)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "51d720ab-8cd5-4b57-9517-24698bbbff80")
+	)
+	(gr_curve
+		(pts
+			(xy 159.927498 148.744502) (xy 175.327498 149.539107) (xy 184.007498 150.779107) (xy 195.787498 152.3675)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eed1b1eb-a3ce-462f-94dd-f4b6c8fbcd46")
 	)
 	(gr_line
 		(start 161.167498 83.4975)
