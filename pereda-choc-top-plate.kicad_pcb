@@ -7000,7 +7000,7 @@
 	(footprint "kbd:Kailh_socket_PG1350_reversible_1u-top-layer"
 		(layer "B.Cu")
 		(uuid "47975ba0-0329-4591-ac3c-94e23ee35307")
-		(at 81.293514 127.177561 4)
+		(at 74.790896 127.611161 4)
 		(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "rSW23"
